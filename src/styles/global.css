@@ -79,6 +79,6 @@ main {
   height: calc(100% - 147px);
 }
 footer {
-  background-color: red;
+  background-color: transparent;
 }
 ul,li{list-style:none;}
