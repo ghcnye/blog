@@ -3,18 +3,27 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+html {
+  height:100vh;
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
 body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
 	padding: 20px;
-	max-width: 65ch;
+  height: calc(100% - 40px);
 	text-align: left;
-	background-color: #fff;
+	background: url('../../public/14.jpg') no-repeat center center;
+  background-size: 100% 100%;;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
 	color: #444;
 }
+a{text-decoration : none} 
+a:hover{text-decoration:none} 
 h1,
 h2,
 h3,
@@ -65,3 +74,11 @@ blockquote {
 	margin: 0px;
 	font-style: italic;
 }
+
+main {
+  height: calc(100% - 147px);
+}
+footer {
+  background-color: red;
+}
+ul,li{list-style:none;}
