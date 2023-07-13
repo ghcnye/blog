@@ -4,7 +4,14 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 html {
-  height:100vh;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  /* background-color:#fff; */
+  width:100%;
+  height:100%;
   box-sizing:border-box;
   padding: 0;
   margin: 0;
@@ -15,12 +22,18 @@ body {
 	padding: 20px;
   height: calc(100% - 40px);
 	text-align: left;
-	background: url('../../public/14.jpg') no-repeat center center;
-  background-size: 100% 100%;;
+	background: url('../../public/13.jpg') no-repeat center center;
+  background-size: 100% 100%;
+  background-color: rgba(237, 44, 50, 0.3);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
 	color: #444;
+  overflow-y: auto;
+}
+article {
+  background: url('../../public/14.jpg') no-repeat center center;
+  background-size: 100% 100%;;
 }
 a{text-decoration : none} 
 a:hover{text-decoration:none} 
@@ -75,9 +88,6 @@ blockquote {
 	font-style: italic;
 }
 
-main {
-  height: calc(100% - 147px);
-}
 footer {
   background-color: transparent;
 }

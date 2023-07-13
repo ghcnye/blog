@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+
+const title = '第一个博客'
+const description  = '123......';
+---
+
+<div>
+  <div class="FB-title">{title}</div>
+  <div class="FB-description">{description}</div>
+</div>
+
+<style>
+  .FB-title {
+    color: aquamarine;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .FB-description {
+    font-size: 16px;
+    color: #fff;
+  }
+</style>
