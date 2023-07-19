@@ -22,9 +22,9 @@ body {
 	padding: 20px;
   height: calc(100% - 40px);
 	text-align: left;
-	background: url('../../public/13.jpg') no-repeat center center;
-  background-size: 100% 100%;
-  background-color: rgba(237, 44, 50, 0.3);
+	/* background: url('../../public/14.jpg') no-repeat center center;
+  background-size: 100% 100%; */
+  background-color: #333;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
@@ -32,20 +32,28 @@ body {
   overflow-y: auto;
 }
 article {
-  background: url('../../public/14.jpg') no-repeat center center;
-  background-size: 100% 100%;;
+  /* background: url('../../public/14.jpg') no-repeat center center;
+  background-size: 100% 100%; */
+  /* max-height: 460px; */
+  /* overflow-y: auto; */
+  /* background-color: transparent; */
 }
 a{text-decoration : none} 
 a:hover{text-decoration:none} 
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 strong,
 b {
 	color: #222;
+}
+h4 {
+  color: aquamarine;
+}
+p {
+  color: rgb(94, 231, 96);
 }
 a {
 	color: #3273dc;
@@ -72,7 +80,7 @@ img {
 }
 code {
 	padding: 2px 5px;
-	background-color: #f2f2f2;
+	background-color: transparent;
 }
 pre {
 	padding: 1rem;

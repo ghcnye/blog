@@ -5,9 +5,10 @@ import { SITE_TITLE } from '../consts';
 
 <header>
 	<div class="titleBox">
-    <h2>
+    <h2 class="username">
       {SITE_TITLE}
     </h2>
+    <script src="../pages/javascrit.js/header.js"></script>
   </div>
 	<nav>
 		<a href="/">主页</a>
@@ -38,4 +39,8 @@ import { SITE_TITLE } from '../consts';
   }
   a{text-decoration : none} 
   a:hover{ text-decoration:none} 
+  .username {
+    user-select: none;
+    cursor: pointer;
+  }
 </style>
